@@ -1,0 +1,10 @@
+#######read me###########
+
+useage
+1. rosrun simple_controller controller_service_server.py
+2. rosrun simple_controller add_two_point.py 1.0 5.0
+
+controller_service_server.py : sub odom from robot, pub cmd_vel to robot, 
+get point from add_two_point.py
+
+add_two_point.py : send point to controller_service_server.py
